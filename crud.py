@@ -1,7 +1,6 @@
 from database import sensor_collection, ml_evaluations_collection, ml_predictions_collection
 from models import SensorData
 from ml_models import ModelEvaluation, PredictionResult
-from bson import ObjectId
 
 def sensor_helper(sensor) -> dict:
     return {

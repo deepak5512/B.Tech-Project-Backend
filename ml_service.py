@@ -36,7 +36,7 @@ class MLService:
             'knn': KNeighborsClassifier(n_neighbors=5),
             'naive_bayes': GaussianNB(),
             'random_forest_classifier': RandomForestClassifier(n_estimators=100, random_state=42),
-            'xgboost_classifier': XGBClassifier(use_label_encoder=False, eval_metric='mlogloss', random_state=42),
+            'xgboost_classifier': XGBClassifier(eval_metric='mlogloss', random_state=42),
             'lda_classifier': LinearDiscriminantAnalysis()
         }
         
