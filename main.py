@@ -22,6 +22,7 @@ async def startup_event():
 
 origins = [
     "http://localhost:5173",
+    "https://btp-iota.vercel.app"
 ]
 
 app.add_middleware(
